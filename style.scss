@@ -25,5 +25,12 @@ html {
             color: white;
             line-height: 2em;
         }
+        #timer {
+            #timerContents {
+                width: 500px;
+                height: 25px;
+                background: green;
+            }
+        }
     }
 }

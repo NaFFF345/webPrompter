@@ -7,18 +7,17 @@ var script = new Vue({
         sentence2: "あれこれ感情は スクランブル"
     }
 });
-
-function changeTitle() {
-    var maaya = "Shiny Drive Moony Dive";
-    title.title = maaya;
-}
-
 var title = new Vue({
     el: "#title",
     data: {
         title: "セツナ Ring a Bell"
     }
 });
+
+function changeTitle() {
+    var maaya = "Shiny Drive Moony Dive";
+    title.title = maaya;
+}
 
 function timer() {
     nowTime = new Date();
