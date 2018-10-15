@@ -1,0 +1,29 @@
+$padding: 0;
+$margin: 0;
+$width: 100%;
+$minHeight: 100%;
+$yellow: #c8c81a;
+$marginLeft: 5%;
+$fontColor: white;
+html {
+    width: $width;
+    min-height: $minHeight;
+    body {
+        color: $fontColor;
+        width: $width;
+        min-height: $minHeight;
+        background: black;
+        font-size: 35px;
+        margin: $margin;
+        padding: $padding;
+        margin-left: $marginLeft;
+        h1 {
+            color: $yellow;
+            margin-left: 5%;
+        }
+        p {
+            color: white;
+            line-height: 2em;
+        }
+    }
+}
