@@ -89,3 +89,72 @@ html {
       width: 500px;
       height: 25px;
       background: green; }
+=> changed: /mnt/c/Users/NaFFF/Documents/server/webPrompter/style.scss
+html {
+  width: 100%;
+  min-height: 100%; }
+  html body {
+    color: white;
+    width: 100%;
+    min-height: 100%;
+    background: black;
+    font-size: 35px;
+    margin: 0;
+    padding: 0;
+    margin-left: 5%; }
+    html body h1 {
+      color: #c8c81a;
+      margin-left: 5%; }
+    html body p {
+      color: white;
+      line-height: 2em; }
+    html body #timer #timerContents {
+      width: 600px;
+      height: 25px;
+      background: green; }
+=> changed: /mnt/c/Users/NaFFF/Documents/server/webPrompter/style.scss
+html {
+  width: 100%;
+  min-height: 100%; }
+  html body {
+    color: white;
+    width: 100%;
+    min-height: 100%;
+    background: black;
+    font-size: 35px;
+    margin: 0;
+    padding: 0;
+    margin-left: 5%; }
+    html body h1 {
+      color: #c8c81a;
+      margin-left: 5%; }
+    html body p {
+      color: white;
+      line-height: 2em; }
+    html body #timer #timerContents {
+      width: 600px;
+      height: 25px;
+      background: green; }
+=> changed: /mnt/c/Users/NaFFF/Documents/server/webPrompter/style.scss
+html {
+  width: 100%;
+  min-height: 100%; }
+  html body {
+    color: white;
+    width: 100%;
+    min-height: 100%;
+    background: black;
+    font-size: 35px;
+    margin: 0;
+    padding: 0;
+    margin-left: 5%; }
+    html body h1 {
+      color: #c8c81a;
+      margin-left: 5%; }
+    html body p {
+      color: white;
+      line-height: 2em; }
+    html body #timer #timerContents {
+      width: 600px;
+      height: 25px;
+      background: green; }

@@ -13,17 +13,23 @@ var title = new Vue({
         title: "セツナ Ring a Bell"
     }
 });
+var timerChar = new Vue({
+    el: "#timerChar",
+    data: {
+        second: timerSec
+    }
+});
 
 function changeTitle() {
     var maaya = "Shiny Drive Moony Dive";
     title.title = maaya;
 }
 
-function timer() {
+function maayaTimer() {
     nowTime = new Date();
     if (nowTime - start >= 2000) {
         changeTitle();
     }
 }
 
-setInterval(timer, 1000);
+setInterval(maayaTimer, 1000);
