@@ -1,22 +1,25 @@
 var timerBody = document.getElementById("timerContents");
 var initWidth = timerBody.clientWidth;
 var style = timerBody.style;
-var timer = 3;
+var timerSec = 11;
+var secWidth = initWidth / timerSec;
 
 function timerStart() {
-    var nowWidth = timerBody.clientWidth;
-    var width10 = initWidth * 0.1;
-    style.width = nowWidth - 30 + "px";
-    if (width10 >= nowWidth) {
+    // 残り時間が10秒なら黄色に変更
+    if (11 >= timerSec) {
         style.background = "yellow";
     }
 
-    if (0 >= timer) {
+    timerSec--;
+    nowWidth = timerBody.clientWidth;
+    //プログレスバー
+    style.width = nowWidth - secWidth + "px";
+    timerChar.second = timerSec;
+    // タイマーの停止
+    if (0 >= timerSec) {
+        style.width = "0";
         clearInterval(timerTrig);
     }
-    timer--;
 }
-var timerTrig = setInterval(timerStart, 1000);
 
-// ユニットテスト
-//timerStart();
+var timerTrig = setInterval(timerStart, 1000);
